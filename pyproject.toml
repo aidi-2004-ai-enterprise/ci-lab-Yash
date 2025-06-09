@@ -1,0 +1,8 @@
+[project]
+name = "ci-lab-Yash"
+version = "0.1.0"
+dependencies = [
+  "pandas==2.2.2",  
+  "pytest==8.3.2",  
+  "seaborn==0.13.2"  
+]
