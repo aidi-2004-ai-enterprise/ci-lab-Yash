@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 
 def load_penguin_data():
-    
+    """Load penguin dataset and return DataFrame shape."""
     data = sns.load_dataset('penguins').dropna()
     return data.shape
 
